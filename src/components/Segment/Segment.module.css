@@ -1,0 +1,42 @@
+.segment {
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.segmentHeader {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.segmentTitle {
+  color: #e5e5e5;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-right: 6px;
+}
+
+.segmentList {
+  display: flex;
+}
+
+.segmentList:hover .segmentNextButton {
+  display: block;
+}
+
+.segmentList img {
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+
+.segmentNextButton {
+  display: none;
+  height: 165px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  cursor: pointer;
+}

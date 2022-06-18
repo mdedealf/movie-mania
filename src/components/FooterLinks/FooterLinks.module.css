@@ -1,0 +1,24 @@
+.linkList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  flex-basis: 25%;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.link a {
+  text-decoration: none;
+  color: #808080;
+}
+
+.link a:hover {
+  color: #af8f8f;
+  font-weight: 500;
+}
